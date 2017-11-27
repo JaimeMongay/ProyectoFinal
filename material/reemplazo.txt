@@ -1,0 +1,18 @@
+DW:
+C:\Users\Jorge\AppData\Roaming\Adobe\Dreamweaver CC\es_ES\Configuration\Snippets\MySQLi
+
+Sublime Text:
+C:\Users\Jorge\AppData\Roaming\Sublime Text 2\Packages\User
+
+SUSTITUCIONES:
+
+NOMBRECONEXION
+con
+
+NOMBREBASEDEDATOS
+reservas
+
+NOMBREARCHIVOCONEXION
+conexion.php
+
+

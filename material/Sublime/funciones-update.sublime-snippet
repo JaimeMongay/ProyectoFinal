@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<?php
+//MySQLi Fragmentos por http://www.dreamweaver-tutoriales.com
+//Copyright Jorge Vila 2015
+
+function FUNCIONUPDATE(\$NOMBREVARIABLE)
+{
+  
+  global \$NOMBRECONEXION;
+  
+  \$updateSQL = sprintf("UPDATE NOMBRETABLA SET NOMBRECAMPO='%s' WHERE NOMBRECAMPO = %s",
+                       GetSQLValueString(\$NOMBREVARIABLE, "text"),
+           GetSQLValueString(\$NOMBREVARIABLE2, "int"),);
+        \$ConsultaFuncion = mysqli_query(\$NOMBRECONEXION,  \$updateSQL) or die(mysqli_error(\$NOMBRECONEXION));
+  mysqli_free_result(\$ConsultaFuncion);
+  
+}
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

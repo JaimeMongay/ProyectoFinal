@@ -1,0 +1,33 @@
+﻿http://getbootstrap.com/
+https://librosweb.es/libro/bootstrap_3/capitulo_6/barras_de_navegacion.html
+http://placehold.it/
+
+Para evitar el pegado en un campo:
+
+window.onload = function() {
+ var myInput = document.getElementById('myInput');
+ myInput.onpaste = function(e) {
+   e.preventDefault();
+ }
+}
+
+Para logos:
+http://es.cooltext.com/
+
+Imágenes:
+http://blog.templatemonster.com/2015/04/09/30-free-stock-photography-sites/
+
+Calendar
+https://fullcalendar.io/
+
+
+PENDIENTE:
+Comprobar que el usuario es único (Alta de Usuario)
+Recordar contraseña
+
+NIVELES:
+1: Usuario Standard
+10: Usuario Administrador
+
+ID USUARIO:
+$_SESSION['webReservas_UserId']
